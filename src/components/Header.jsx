@@ -19,7 +19,7 @@ const Header = ({isConnected, lastUpdate}) => {
             </div>
 
             <button className="bt- btn-outline-secondary btn-lg rounded-circle p-3 theme-toggle"
-            onClick={()toggleTheme}
+            onClick={toggleTheme}
             tittle={" "}
             >
                 <i className="bi bi-sun"></i>
